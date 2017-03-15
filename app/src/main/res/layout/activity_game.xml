@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codeclan.rockpaperscissors.GameActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/instruction_text"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:padding="20dp"
+        />
+    <Button
+        android:id="@+id/rock_button"
+        android:text="@string/rock_text"
+        android:layout_gravity="center"
+        android:onClick="onRockButtonClicked"
+        android:layout_margin="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/paper_button"
+        android:text="@string/paper_text"
+        android:layout_gravity="center"
+        android:onClick="onPaperButtonClicked"
+        android:layout_margin="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/scissors_button"
+        android:text="@string/scissors_text"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:onClick="onScissorsButtonClicked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+</LinearLayout>
